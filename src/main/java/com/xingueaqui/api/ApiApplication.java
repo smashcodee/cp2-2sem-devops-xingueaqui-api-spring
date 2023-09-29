@@ -14,12 +14,3 @@ public class ApiApplication {
     }
 
 }
-
-@RestController
-@RequestMapping("/")
-class HelloController {
-    @GetMapping
-    String hello() {
-        return "<h1>Hello World!</h1>";
-    }
-}
