@@ -50,4 +50,4 @@ jobs:
           app-name: api-plan-smashcode2023
           slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A435B9522E734D6F8A39276BF7900ACE }}
-          package: *.jar
+          package: '*.jar'
