@@ -28,5 +28,5 @@ $ http POST :8080/swearword/create swear_word="Seu bananão 🍌" categorie="VIO
 
 - Ter acesso as categorias disponíveis
 ```
-$ http GET :8080/swearword/categorie/all
+$ http GET :8080s
 ```
